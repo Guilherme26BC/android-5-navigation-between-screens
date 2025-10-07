@@ -16,14 +16,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun PedidosScreen(modifier: Modifier = Modifier) {
-    Box(modifier = modifier
-        .fillMaxSize()
-        .background(Color(0xFFFA9A9A9))
-        .padding(32.dp)
+fun PerfilScreen(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF329F6B))
+            .padding(32.dp)
     ) {
         Text(
-            text = "PEDIDOS",
+            text = "PERFIL",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
