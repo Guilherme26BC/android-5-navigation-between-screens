@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Navegacao_entre_telasTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    PedidosScreen(modifier = Modifier.padding((innerPadding)))
+                    LoginScreen(modifier = Modifier.padding((innerPadding)))
                 }
             }
         }
